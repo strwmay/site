@@ -5,25 +5,6 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-.fullcontainer {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-.bgfundo {
-  background: #ffffff
-  /* ordem bg:
-     background-color: ;
-     background-image: ;
-     background-repeat: ;
-     background-position: ;
-     background-size: ; */
-  width: 100%;
-  height: 200px;
-}
-
 header {
   color: #fff;
   position: fixed;
@@ -107,30 +88,6 @@ header {
   color: #fff;
 }
 
-#boasvindas {
-  max-height: 270px;
-  background: #cacaca;
-  margin: 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-  text-align: left;
-}
-
-#boasvindas h1 {
-  text-transform: uppercase;
-  color: #626262;
-  font-weight: 900;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
-}
-
-#txtboasvindas {
-  max-width: 600px;
-  padding-right: 100px;
-}
-
 #menu {
   display: flex;
   flex-direction: column;
@@ -198,16 +155,6 @@ header {
 #delivery #whatsapp {
   background: #898989;
   margin-top: -25px;
-}
-
-#contato iframe {
-  position: absolute;
-  z-index: -10;
-}
-
-#contato {
-  display: flex;
-  justify-content: center;
 }
 
 .forms {
