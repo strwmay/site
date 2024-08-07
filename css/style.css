@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.fullcontainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bgfundo {
+  background: #ffffff
+  /* ordem bg:
+     background-color: ;
+     background-image: ;
+     background-repeat: ;
+     background-position: ;
+     background-size: ; */
+  width: 100%;
+  height: 200px;
+}
+
+header {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #626262;
+  padding: 0;
+}
+
+.container {
+  max-width: 1073px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin: 10px;
+}
+
+.main-navigation a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 505;
+  font-family: Helvetica, sans-serif;
+  padding: 6px 20px;
+  margin-bottom: -3px;
+  border-bottom: solid 3px transparent;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  border-color: #898989;
+}
+
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+}
+
+.sec-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sec-menu ion-icon {
+  font-size: 25px;
+}
+
+#whatsapp {
+  background: #898989;
+  border-radius: 65px;
+  padding: 0px 15px;
+  font-size: medium;
+  font-weight: bolder;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+#whatsapp ion-icon {
+  font-size: 25px;
+}
+
+.whats {
+  text-decoration: none;
+  color: #fff;
+}
+
+#boasvindas {
+  max-height: 270px;
+  background: #cacaca;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: left;
+}
+
+#boasvindas h1 {
+  text-transform: uppercase;
+  color: #626262;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
+#txtboasvindas {
+  max-width: 600px;
+  padding-right: 100px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu img {
+  padding: 36px 0;
+}
+
+#menu div img {
+  border-radius: 100%;
+  padding: 50px;
+}
+
+#menu h2 {
+  color: #626262;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 0 7px 0;
+}
+
+/* #menu div {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+} */
+
+#promopizza {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+#delivery {
+  max-height: 270px;
+  background: #cacaca;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+
+#delivery h1 {
+  text-transform: uppercase;
+  color: #626262;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
+}
+
+#delivery #whatsapp {
+  background: #898989;
+  margin-top: -25px;
+}
+
+#contato iframe {
+  position: absolute;
+  z-index: -10;
+}
+
+#contato {
+  display: flex;
+  justify-content: center;
+}
+
+.forms {
+  width: 530px;
+  max-width: 100%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  display: block;
+  background: #fff;
+  padding: 48px 22px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.forms h2 {
+  color: #898989;
+  font-size: 28px;
+  line-height: 88px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.forms small {
+  color: #333;
+  margin: 0;
+  margin-top: -12px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forms input,
+.forms textarea {
+  padding: 0 16px;
+  line-height: 36px;
+  background: transparent;
+  border-radius: 2px;
+  border: solid 2.5px #cacaca;
+  font-weight: 400;
+  font-size: 14px;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms input[type="submit"] {
+  background: #7e7e7e;
+  border-color: #7e7e7e;
+  width: 155px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+footer {
+  background: #7e7e7e;
+  min-height: 500px;
+  margin-top: -450px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer #dados {
+  display: flex;
+  margin: 0 6%;
+  justify-content: space-between;
+}
+
+#dados p,
+#dados h4 {
+  margin: 0;
+}
+
+#dados h4 {
+  margin-top: 10px;
+}
+
+footer #dados:first-child {
+  margin-left: 15%;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 150px;
+}
+
+textarea {
+  resize: on;
+}
