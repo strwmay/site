@@ -169,18 +169,14 @@ header {
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
+}
+
+#equipe p {
+  margin-top: 0;
+  margin-bottom: 20%;
   text-align: center;
 }
 
-#equipe p {
-  margin-top: 0;
-  margin-bottom: 20%;
-}
-
-#equipe p {
-  margin-top: 0;
-  margin-bottom: 20%;
-}
 #feedback {
   max-height: 270px;
   background: #cacaca;
