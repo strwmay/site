@@ -13,6 +13,8 @@ body {
 }
 
 .bgfundo {
+  width: 100%;
+  height: 200px;
   background: #ffffff
   /* ordem bg:
      background-color: ;
@@ -20,8 +22,6 @@ body {
      background-repeat: ;
      background-position: ;
      background-size: ; */
-  width: 100%;
-  height: 200px;
 }
 
 header {
@@ -107,7 +107,7 @@ header {
   color: #fff;
 }
 
-#boasvindas {
+#sobre {
   max-height: 270px;
   background: #cacaca;
   margin: 50px 0;
@@ -118,7 +118,7 @@ header {
   text-align: left;
 }
 
-#boasvindas h1 {
+#sobre h1 {
   text-transform: uppercase;
   color: #626262;
   font-weight: 900;
@@ -126,7 +126,7 @@ header {
 
 }
 
-#txtboasvindas {
+#txtsobre {
   max-width: 600px;
   padding-right: 100px;
 }
@@ -163,14 +163,20 @@ header {
   flex-wrap: nowrap;
 } */
 
-#promopizza {
-  width: 90%;
+#equipe {
   display: flex;
+  width: 90%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
+  text-align: center;
+}
+
+#equipe p {
+  margin-top: 0;
+  margin-bottom: 20%;
 }
 
 #delivery {
